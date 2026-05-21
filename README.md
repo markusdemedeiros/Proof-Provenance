@@ -57,7 +57,7 @@ Canonical formalizations are rare. Mathlib is one such example.
 
 # More Info
 
-This system builds on Terrence Tao's "Techniques and Tools for the Formalization of Analysis" workshop talk,[^1] where Tao takes a first cut at broadly classifying different standards for formalized mathematics.
+This system builds on Terence Tao's "Techniques and Tools for the Formalization of Analysis" workshop talk,[^1] where Tao takes a first cut at broadly classifying different standards for formalized mathematics.
 I wanted to expand on this system a little, and tweak it to be suitable for software verification as well.
 
 The classification is, of course, opt-in and can only be socially enforced.
