@@ -18,7 +18,7 @@ Bare formalizations are rare, and abdicates any responsibility about the work it
 - The project establishes **truth** of some formal statement, which may only be loosely understood.
 - I vouch that the project compiles.
 
-A certificate formalizations is useful when mere truth itself is the only goal. This provides evidence that a formalization of some result is possible.
+A certificate formalization is useful when mere truth itself is the only goal. This provides evidence that a formalization of some result is possible.
 
 #### Examples
 - A proof translated into Lean out of a Vampire run.
