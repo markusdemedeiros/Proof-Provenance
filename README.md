@@ -3,7 +3,7 @@
 Formal verification can serve a variety of purposes, and engaging with the verification community means clearly communicating what that purpose is. The Proof Provenance System is a shorthand for describing how you want people to engage with your formally verified piece of software.
 
 Below are five classes a formalization project might fit into.
-The system is not a rubic! 
+The system is not a rubric! 
 While lower down classes are generally considered higher quality, they much more stringent and much less agile, which is not appropriate for all verification tasks. 
 
 Think about this system less as a measure of quality and more as a protocol for how you expect others to engage with your project. 
