@@ -1,14 +1,13 @@
 # The Proof Provenance System
 
-Formal verification can serve a variety of purposes, and engaging with the verification community means clearly communicating what that purpose is. The Proof Provenance System is a shorthand for describing the purpose and expectations of a formally verified piece of software.
-
+Formal verification can serve a variety of purposes, and engaging with the verification community means clearly communicating what that purpose is. The Proof Provenance System is a shorthand for describing how you want people to engage with your formally verified piece of software.
 
 Below are five classes a formalization project might fit into.
 The system is not a rubic! 
 While lower down classes are generally considered higher quality, they much more stringent and much less agile, which is not appropriate for all verification tasks. 
 
 Think about this system less as a measure of quality and more as a protocol for how you expect others to engage with your project. 
-An accurate classification tells the world of potential collaborators what they can expect out of you, and dually, lays down some expectations you can expect others to respect.
+An accurate classification tells the world of potential collaborators what they can depend on *you* for, and dually, lays down some guidelines you'd expect new collaborators to respect.
 
 ## Bare formalization [![Proof Provenance][fc-class-bare]][fc-link]
 - I make **no assertions** about the code
@@ -58,7 +57,7 @@ Canonical formalizations are rare. Mathlib is one such example.
 
 # More Info
 
-This system builds on Terrence Tao's "Techniques and Tools for the Formalization of Analysis" workshop talk[^1], where Tao takes a first cut at broadly classifying different standard for formalized mathematics.
+This system builds on Terrence Tao's "Techniques and Tools for the Formalization of Analysis" workshop talk,[^1] where Tao takes a first cut at broadly classifying different standards for formalized mathematics.
 I wanted to expand on this system a little, and tweak it to be suitable for software verification as well.
 
 The classification is, of course, opt-in and can only be socially enforced.
