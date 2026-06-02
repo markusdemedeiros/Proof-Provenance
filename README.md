@@ -12,7 +12,7 @@ An accurate classification tells the world of potential collaborators what they 
 ## Bare formalization [![Proof Provenance][fc-class-bare]][fc-link]
 - I make **no assertions** about the code
 
-Bare formalizations are rare, and abdicates any responsibility about the work itself.
+Bare formalizations are rare, free, and they abdicate any responsibility about the work itself. Nevertheless, marking a formalization as bare is still helpful to readers, as a kind of "opt-out". 
 
 ## Certificate formalization [![Proof Provenance][fc-class-certificate]][fc-link]
 - The project establishes **truth** of some formal statement, which may only be loosely understood.
@@ -23,7 +23,8 @@ A certificate formalization is useful when mere truth itself is the only goal. T
 #### Examples
 - A proof translated into Lean out of a Vampire run.
 - A proof generated autonomously by an LLM.
-
+- A corpus of possible "junk theorems", which may or may not be intelligible, but can still be used to close proof goals. 
+ 
 ## Prototype formalization [![Proof Provenance][fc-class-prototype]][fc-link]
 - The project establishes a baseline formalization of a **clearly-scoped** result.
 - I vouch that the project does not make use of exploits or **trivializing loopholes**. 
@@ -33,7 +34,7 @@ A prototype formalization is useful to establish a high-level verification metho
 
 #### Examples
 - A proof with some autonomously generated components but with human-crafted theorem statements.
-- Autoformalizations of results that are easily stated using existing Mathlib machinery.
+- Autoformalizations of results that are easily stated using existing Mathlib machinery, such as numerical bounds. 
 
 ## Reference formalization [![Proof Provenance][fc-class-reference]][fc-link]
 - The project establishes **curated** and **reusable** proof techniques for a **clearly-scoped** result.
