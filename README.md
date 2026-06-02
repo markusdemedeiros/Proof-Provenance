@@ -12,7 +12,7 @@ An accurate classification tells the world of potential collaborators what they 
 ## Bare formalization [![Proof Provenance][fc-class-bare]][fc-link]
 - I make **no assertions** about the code
 
-Bare formalizations are rare, free, and they abdicate any responsibility about the work itself. Nevertheless, marking a formalization as bare is still helpful to readers, as a kind of "opt-out". 
+Bare formalizations are rare, free, and they abdicate any responsibility about the work itself. Marking a formalization as bare is still helpful to readers, as a kind of "opt-out". 
 
 ## Certificate formalization [![Proof Provenance][fc-class-certificate]][fc-link]
 - The project establishes **truth** of some formal statement, which may only be loosely understood.
