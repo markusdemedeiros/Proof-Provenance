@@ -55,6 +55,13 @@ Reference formalizations signal that a piece of code is reusable, stable, and fu
 
 Canonical formalizations are rare. Mathlib is one such example.
 
+# A note on `sorry`, and otherwise open proofs
+As the quality and investment into a project increases, so does the ability for experts to make informed decisions about open proofs. This runs contrary to the idea that "sorry-free" is a measure of a formalization's quality. Some examples: 
+
+- In the absence of a deep understanding of the proofs at hand, a `sorry` can seriously undermine the mere truth of a formal statement in unpredictable. Certificate proofs likely should be sorry-free.
+- A well-communuicated `sorry` may be acceptable in some prototype proofs. For example, an expert maintainer may judge a `sorry` may be acceptable when a proof is pending an upstream definition, provided they are confident that any such definition will do.
+- Canonical or reference formalizations may choose to permanently include axioms depending on their application domain (for example, `native_decide` for program verification). However, one would expect a canonical formalization to be extremely conservative in this regard, in order to preserve compatibility with projects that have stricter requirements. 
+
 # More Info
 
 This system builds on Terence Tao's "Techniques and Tools for the Formalization of Analysis" workshop talk,[^1] where Tao takes a first cut at broadly classifying different standards for formalized mathematics.
